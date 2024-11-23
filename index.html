@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oduor Rooney Opondo - Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px auto;
+      padding: 5px;
+      line-height: 1.6;
+      color: black;
+      font-size: 20px;
+      overflow: hidden; /* Prevents scrolling */
+    }
+
+    /* Video Background Styles */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1; /* Ensures the video stays behind other content */
+    }
+
+    /* Content Styles */
+    .content {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: black;
+      border-bottom: 4px solid #f4f4f4;
+      padding-bottom: 5px;
+      text-align: center;
+      text-decoration: bold;
+      margin: 0 10px;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      background: rgba(255, 255, 255, 0.8); /* Slight transparency */
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 235, 1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #f4f4f4;
+      padding-bottom: 5px;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .project {
+      margin-bottom: 40px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form label {
+      margin-bottom: 15px;
+    }
+
+    form input, form textarea, form button {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video Background -->
+  <video class="video-background" autoplay muted loop>
+    <source src="path/to/your/galaxy-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Header -->
+    <header>
+      <h1>Oduor Rooney Opondo</h1>
+      <p>Software Engineering Student | Web Developer | System Analyst | Designer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm Oduor Rooney Opondo, a passionate Software Engineering student at Kirinyaga University. I scored a B+ in KCSE (2023) and have since been dedicated to mastering skills in HTML, CSS, C, and Python.<br><br>As a web developer, system analyst, and designer, I aim to create innovative solutions that merge functionality with creativity.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Educational Background</h2>
+      <ul>
+        <li>Degree: Bachelor of Science in Software Engineering</li>
+        <li>Institution: Kirinyaga University</li>
+        <li>Year of Study: 1st Year</li>
+        <li>Achievements: Scored a B+ in KCSE (2023)</li>
+      </ul>
+      <a href="#">Download CV</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Hospital Management System</h3>
+        <p>A system designed to handle hospital operations such as patient reception, doctor consultations, lab testing, and results entry.</p>
+      </div>
+      <div class="project">
+        <h3>Hotel Website - RANIF HOTEL</h3>
+        <p>A website for ordering meals with a dark/light mode toggle and WhatsApp integration for placing orders.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+      <p style="background-color: red;">Email: lilney205@gmail.com</p>
+      <p style="background-color: black; color: white;">Phone: +254 724 467 190</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Oduor Rooney Opondo. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+  </html>
+￼Enter
